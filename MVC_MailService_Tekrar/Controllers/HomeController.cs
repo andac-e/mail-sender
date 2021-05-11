@@ -32,5 +32,10 @@ namespace MVC_MailService_Tekrar.Controllers
             ViewBag.Message = "Mail başarılı bir şekilde gönderilmiştir";
             return View();
         }
+
+        public ActionResult Contact()
+        {
+            return View();
+        }
     }
 }
